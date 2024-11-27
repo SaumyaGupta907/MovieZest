@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.homeDiv{
+  background-image: url("./Component/images/movieBackground.jpg");
+  background-size: cover;
+  min-height: 80vh;
+}
+
+.icon{
+  width: 120px;
+  height: 120px;
+  padding: 30px;
+}
+.words{
+  font-size: 2.5vw;
+  color: white;
+  text-align: center;
+}
+.title{
+font-size: 6vw;
+color: white;
+padding-top: 10%;
+text-align: center;
+}
+.searchBtn{
+background-color: rgb(233,21,92);
+color: white;
+border-radius: 80px;
+font-size: 25px;
+padding: 15px;
+}
+.btnDiv{
+  text-align: center;
+}
+.navbar{
+  background-color: rgb(2, 10, 40);
+  padding:20px;
+}
+.navbar-brand{
+  font-size:2.5vw; 
+  color:rgb(233,21,92);
+}
+.nav-link{
+  color: rgb(216, 216, 213);
+  font-size: 1.3vw;
+  margin-left: 40px;
+}
+.footer{
+background-color: rgb(2, 10, 40);
+color: rgb(216, 216, 213);
+padding:40px;
+text-align: center;
+}
+.hero{
+  background-image: linear-gradient(to right,rgba(3.14%,14.51%,40.39%,0.5)150px,rgba(7.06%,20.39%,50.59%,0.7)100%),url("./Component/images/batman.jpg");
+  background-size: cover;
+  min-height: 60vh;
+}
+.mainDiv{
+  min-height: 100vh;
+  background-color: rgb(2, 10, 40);
+}
+.main{
+  background-color:  rgb(2, 10, 40) ;
+}
+.searchBox{
+  text-align: center;
+  justify-content: center;
+  margin-top: 5%;
+  color: aliceblue;
+}
+.lead{
+  margin-top: 20px;
+}
+
+.movieCard{
+  width: 50vh;
+  background-image: linear-gradient(45deg, #0e0918,#0f1b38,#265563);
+  border-radius: 20px;
+  padding: 25px;
+  margin: 15px 10px;
+  filter: drop-shadow(0px 0px 8px #0000009d);
+  position: relative;
+}
+
+.movieCard-title{
+  color: #2ec3d6;
+}
+
+.movieCardImg{
+  font-size: 1.5rem;
+}
+
+.movieCardDesc{
+  padding: 20px;
+  min-height: 20vh;
+  text-align: center;
+  align-items: center;
+}
+
+.movieCardTitle{
+  color: white;
+  font-size: 1.5rem;
+}
+
+.cardImg{
+  object-fit: cover;
+  border-radius: 10px;
+  height: 50vh;
+}
+
+.ratingCard{
+  position: absolute;
+  text-align: center;
+  font-size: 1.2rem;
+  color: white;
+  padding: 10px;
+  width: 50px;
+  height: 50px;
+  right: -15px;
+  top: -15px;
+  border-radius: 50%;
+  background: rgb(233,21,92);
+}
+
+.myBtn{
+  color: white;
+  border: 2px solid rgb(39, 171, 233);
+}
+
+.myBtnPink {
+  border: 1px solid rgb(237, 20, 91);
+  color: rgb(237, 20, 91);
+}
